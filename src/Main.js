@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import MyRadialBarChart from './MyRadialBarChart';
+import PieChartExample from './PieChartExample';
 
 class Main extends Component {
   render() {
     return (
-      <MyRadialBarChart />
+      <div>
+        <MyRadialBarChart />
+        <PieChartExample />
+      </div>
     );
   };
 }
