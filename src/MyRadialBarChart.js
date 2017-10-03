@@ -18,11 +18,11 @@ const style = {
 };
 
 
-class App extends Component {
+class MyRadialBarChart extends Component {
   render() {
     return (
       <RadialBarChart width={500} height={300} cx={150} cy={150} innerRadius={20} outerRadius={140} barSize={20} data={data}>
-        <RadialBar minAngle={15} background clockWise={true} dataKey='potato'/>
+        <RadialBar minAngle={45} background clockWise={true} dataKey='potato'/>
         <Legend iconSize={10} width={120} height={140} layout='vertical' verticalAlign='middle' wrapperStyle={style}/>
         <Tooltip />
       </RadialBarChart>
@@ -30,4 +30,4 @@ class App extends Component {
   };
 }
 
-export default App;
+export default MyRadialBarChart;
