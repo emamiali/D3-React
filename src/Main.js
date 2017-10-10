@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MyRadialBarChart from './MyRadialBarChart';
 import PieChartExample from './PieChartExample';
-import PieChartAttempt from './PieChartAttempt';
+import BudgetRings from './PieChartAttempt';
 
 class Main extends Component {
   render() {
@@ -9,7 +9,7 @@ class Main extends Component {
       <div>
         {/* <MyRadialBarChart />
         <PieChartExample /> */}
-        <PieChartAttempt />
+        <BudgetRings />
       </div>
     );
   };
